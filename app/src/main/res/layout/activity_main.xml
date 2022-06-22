@@ -6,12 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_page"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:id="@+id/header_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="cursive"
         android:text="@string/enter_name"
+        android:textColor="#1b1c1e"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,27 +32,33 @@
         android:id="@+id/createBirthdayBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="createBirthdayCard"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="15dp"
         android:text="@string/create_card"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="createBirthdayCard"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_input"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.162" />
 
     <EditText
         android:id="@+id/name_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="cursive"
         android:hint="@string/shailesh"
         android:inputType="textPersonName"
         android:textAlignment="center"
+        android:textColor="#1b1c1e"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
