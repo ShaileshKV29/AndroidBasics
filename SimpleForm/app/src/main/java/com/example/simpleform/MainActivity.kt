@@ -20,8 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun sign_in(view : View)
-    {
+    private fun sign_in(view: View) {
         binding.enteredEmail.text = binding.userEmail.text
         binding.enteredEmail.visibility = View.VISIBLE
 
