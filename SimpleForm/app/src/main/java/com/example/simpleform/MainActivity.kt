@@ -14,9 +14,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
-        binding.signInBtn.setOnClickListener {
-            sign_in(it)
+        binding.apply {
+            signInBtn.setOnClickListener {
+                sign_in(it)
+            }
         }
     }
 
