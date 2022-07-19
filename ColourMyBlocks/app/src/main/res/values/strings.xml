@@ -2,4 +2,8 @@
     <string name="app_name">ColourMyBlocks</string>
     <string name="text_block_1">Text Block 1</string>
     <string name="text_block_2">Text Block 2</string>
+    <string name="text_block_3">Text Block 3</string>
+    <string name="text_block_4">Text Block 4</string>
+    <string name="text_block_5">Text Block 5</string>
+    <string name="text_block_6">Text Block 6</string>
 </resources>
