@@ -35,7 +35,7 @@
         android:padding="10dp"
         android:textAlignment="center"
         android:gravity="center"
-        android:background="@color/teal_700"
+        android:background="@android:color/system_accent3_800"
         android:textColor="@color/white"
         android:fontFamily="@font/nunito_sans"
         android:textSize="17sp"
