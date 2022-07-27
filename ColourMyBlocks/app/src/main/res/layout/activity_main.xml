@@ -103,4 +103,43 @@
         app:layout_constraintStart_toEndOf="@+id/text_block_2"
         app:layout_constraintTop_toBottomOf="@+id/text_block_4" />
 
+    <Button
+        android:id="@+id/red_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        app:layout_constraintBaseline_toBaselineOf="@+id/yellow_btn"
+        app:layout_constraintEnd_toStartOf="@+id/yellow_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/yellow_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/yellow"
+        app:layout_constraintBaseline_toBaselineOf="@+id/green_btn"
+        app:layout_constraintEnd_toStartOf="@+id/green_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/red_btn" />
+
+    <Button
+        android:id="@+id/green_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/yellow_btn" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="red_btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
