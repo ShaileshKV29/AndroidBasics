@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.example.android.navigation.databinding.FragmentGameWonBinding
+import com.example.navigation.databinding.FragmentGameWonBinding
 
 
 class GameWonFragment : Fragment() {
