@@ -20,7 +20,7 @@ class GameWonFragment : Fragment() {
 
 //        view.findNavController().navigate(R.id.action_gameWonFragment_to_titleFragment)
         binding.nextMatchButton.setOnClickListener { view:View ->
-            view.findNavController().navigate(R.id.action_gameWonFragment_to_titleFragment2qs`````````````)
+            view.findNavController().navigate(R.id.action_gameWonFragment_to_titleFragment2)
         }
         return binding.root
     }
