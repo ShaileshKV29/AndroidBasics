@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.613" />
 
     <TextView
-        android:id="@+id/register_page_link"
+        android:id="@+id/login_page_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_text"
